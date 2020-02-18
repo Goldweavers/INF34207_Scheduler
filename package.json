@@ -1,0 +1,19 @@
+{
+  "name": "inf34207_scheduler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Julien Sarriot",
+  "license": "ISC",
+  "dependencies": {
+    "death": "^1.1.0",
+    "inquirer": "^7.0.4",
+    "moment": "^2.24.0",
+    "winston": "^3.2.1"
+  }
+}
