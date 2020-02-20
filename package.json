@@ -13,7 +13,6 @@
   "author": "Julien Sarriot",
   "license": "ISC",
   "dependencies": {
-    "death": "^1.1.0",
     "inquirer": "^7.0.4",
     "moment": "^2.24.0",
     "winston": "^3.2.1"
