@@ -11,6 +11,8 @@
   "author": "Julien Sarriot",
   "license": "ISC",
   "dependencies": {
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^4.8.18",
     "death": "^1.1.0",
     "inquirer": "^7.0.4",
     "moment": "^2.24.0",
