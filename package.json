@@ -1,10 +1,12 @@
 {
-  "name": "inf34207_scheduler",
+  "name": "scheduler",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "bin": "index.js",
   "scripts": {
     "start": "node ./index.js",
+    "build": "pkg .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -15,5 +17,13 @@
     "inquirer": "^7.0.4",
     "moment": "^2.24.0",
     "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "pkg": "^4.4.3"
+  },
+  "pkg": {
+    "scripts": [
+      "lib/**/*.js"
+    ]
   }
 }
