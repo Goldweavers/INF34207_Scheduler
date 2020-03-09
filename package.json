@@ -25,6 +25,8 @@
   },
   "pkg": {
     "scripts": [
+      "node_modules/logform/*.js",
+      "node_modules/winston/**/*.js",
       "lib/**/*.js"
     ]
   }
